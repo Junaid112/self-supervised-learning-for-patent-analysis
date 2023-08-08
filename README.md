@@ -14,5 +14,21 @@ In this part the encoder is connected to a linear classifier. During the trainin
 
 ## Hierarchical image classification
 
-For perspective image classification we build a tree structure with three stages. So for this task we also try to use hierarchical image classification. We select the C-HCMNN model and the code refers to https://github.com/EGiunchiglia/C-HMCNN.
+For perspective image classification we build a tree structure with three stages. So for this task we also try to use hierarchical image classification. We select the Coherent Hierarchical Multi-Label Classification Networks (C-HCMNN) model and the code refers to https://github.com/EGiunchiglia/C-HMCNN.
 
+## Reference
+
+### BYOL
+Richemond, P.H., Grill, J., Altch'e, F., Tallec, C., Strub, F., Brock, A., Smith, S.L., De, S., Pascanu, R., Piot, B., & Valko, M. (2020). BYOL works even without batch statistics. ArXiv, abs/2010.10241.
+
+### SimCLR
+
+Chen, T., Kornblith, S., Norouzi, M., & Hinton, G.E. (2020). A Simple Framework for Contrastive Learning of Visual Representations. ArXiv, abs/2002.05709.
+
+### Moco
+
+He, K., Fan, H., Wu, Y., Xie, S., & Girshick, R.B. (2019). Momentum Contrast for Unsupervised Visual Representation Learning. 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 9726-9735.
+
+### C-HCMNN
+
+Giunchiglia, E., & Lukasiewicz, T. (2020). Coherent Hierarchical Multi-Label Classification Networks. ArXiv, abs/2010.10151.
