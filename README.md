@@ -1,5 +1,5 @@
 # self-supervised-learning-for-patent-analysis
 
-This repository offers a self-supervised-learning method for patent analysis including image type and perspective type with two different self-supervised-learning model i.e. BYOL and SimCLR. The more details can be found at https://github.com/lucidrains/byol-pytorch/blob/master/README.md and..........
+The core of this approach is by using three different self-supervised learning method, i.e. Bootstrap Your Own Latent (BYOL), Simple Contrastive Learning of Representations(SimClR) and Momentum Contrast(Moco) models to accomplish three tasks: image type classification, perspective image classification and object image classification.
 
-The image type in database has ten classes, i.e. blockorcircuit, chemical, drawing, flowchart, geneseq, graph, math, programm, symbol and talbe. 
+
